@@ -1,0 +1,280 @@
+* {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #F1F3FF;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: black!important;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+    display: flex;
+}
+
+.navbar-collapse.show {
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.align-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/* NAVBAR END */
+
+
+/* CONTENT 1 */
+
+.home {
+    padding-top: 6rem;
+    position: relative;
+}
+
+.content-judul {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.content-paragraf {
+    color: #000000;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn-content {
+    /* background-color: #5cb85f; */
+    color: #ffffff;
+    border-radius: 2px;
+    padding: 8px 12px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.img-content {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .img-content {
+        margin-top: 2rem;
+    }
+    .home {
+        padding-top: 2rem;
+    }
+    .card-body {
+        height: auto;
+    }
+}
+
+
+/* CONTENT 1 END */
+
+.align-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+section.hero {
+    width: 1140px;
+    width: 100%;
+    background-color: #F1F3FF;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+}
+
+.column-illustration-hero img {
+    margin-top: 133px;
+    padding-left: 50px;
+    display: flex;
+    right: 0;
+    margin-bottom: 0;
+}
+
+.column-text-heading {
+    margin-top: 140px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+
+h1.hero-heading {
+    margin-top: 200px;
+    font-size: 36px;
+}
+
+.btn.btn-success {
+    background-color: #5CB85F;
+}
+
+.row.row1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    flex: 1;
+    min-width: 50%;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+/* LIST CAR */
+
+.info-panel .shadow {
+    margin-top: -40px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+label {
+    font-size: 14px;
+    color: #aeacac;
+}
+
+#tipedriver,
+#penumpang {
+    font-size: 14px;
+    height: 32px;
+    color: #aeacac;
+}
+
+input[type="date"] {
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #aeacac;
+    width: 210px;
+    height: 32px;
+}
+
+input[type="time"] {
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #aeacac;
+    width: 210px;
+    height: 32px;
+}
+
+@media screen and (max-width: 991px) {
+    input[type="date"] {
+        width: 100%;
+    }
+    input[type="time"] {
+        width: 100%;
+    }
+}
+
+
+/* Hide the first option when it is selected */
+
+select option[value=""][selected] {
+    display: none;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+    padding: 5px;
+    font-size: 5px;
+    font-weight: 100;
+    color: #aeacac;
+    width: 200px;
+    height: 32px;
+}
+
+#filter {
+    font-size: 14px;
+    width: 92px;
+    height: 36px;
+    background-color: #5CB85F;
+    color: #ffffff;
+    border: none;
+    margin-top: 27px;
+}
+
+@media screen and (max-width: 991px) {
+    #filter {
+        width: 100%;
+    }
+    .card-body {
+        height: auto !important;
+    }
+}
+
+
+/* JS STYLE*/
+
+.btn-js {
+    /* position: fixed; */
+    width: 100%;
+    background-color: #5CB85F;
+    font-family: Helvetica;
+    margin-top: auto;
+}
+
+.img-js {
+    object-fit: cover !important;
+    text-align: center !important;
+    height: 222px;
+    width: auto;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: auto;
+}
+
+
+/* FOOTER */
+
+.footer {
+    padding-top: 10rem;
+}
+
+.footer a {
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000000;
+}
