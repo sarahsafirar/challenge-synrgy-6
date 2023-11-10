@@ -1,0 +1,20 @@
+[{
+        "name": "Car",
+        "size": "Small",
+        "price": 150000,
+        "image_url": "car.jpg"
+    },
+
+    {
+        "name": "Car 1",
+        "size": "Medium",
+        "price": 250000,
+        "image": "car1.jpg"
+    },
+    {
+        "name": "Car 2",
+        "size": "Large",
+        "price": 300000,
+        "image": "car2.jpg"
+    }
+]
