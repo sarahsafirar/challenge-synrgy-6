@@ -1,0 +1,483 @@
+* {
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #F1F3FF;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: black!important;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-collapse.show {
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.align-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+section.hero {
+    width: 1140px;
+    width: 100%;
+    background-color: #F1F3FF;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+}
+
+.column-illustration-hero img {
+    margin-top: 133px;
+    padding-left: 50px;
+    display: flex;
+    right: 0;
+    margin-bottom: 0;
+}
+
+.column-text-heading {
+    margin-top: 140px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+
+h1.hero-heading {
+    margin-top: 200px;
+    font-size: 36px;
+}
+
+.btn.btn-success {
+    background-color: #5CB85F;
+}
+
+.row.row1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    flex: 1;
+    min-width: 50%;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.testimonial {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.testimonial h2 {
+    text-align: center;
+}
+
+.testimonial .banner.ban1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card.ban1 {
+    flex-direction: column;
+    background-color: #0D28A6;
+    border-radius: 15px;
+    width: 1168px;
+    height: 326px;
+    color: white;
+    display: flex;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+.card.ban1 h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: auto;
+    max-width: 80%;
+}
+
+.card.ban1 p {
+    font-size: 14px;
+    margin: auto;
+    max-width: 80%;
+}
+
+.row.row2 {
+    width: 100%;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 au;
+}
+
+.qna-item {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qna-question {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    width: 580px;
+    height: 56px;
+}
+
+.qna-answer {
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 580px;
+    height: 56px;
+}
+
+.row.row-cols-2 {
+    margin-bottom: 30px;
+}
+
+.full-size-card {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    justify-content: center;
+}
+
+.gallery {
+    background: #fff;
+    position: relative;
+}
+
+.gallery-cell {
+    height: 200px;
+    margin-right: 5px;
+    background: #F1F3FF;
+    width: 619px;
+    height: 270px;
+    border-radius: 15px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    right: 0;
+    overflow-x: visible;
+}
+
+.gallery-cell:before {
+    display: flex;
+    text-align: left;
+    line-height: 70px;
+    font-size: 80px;
+    color: white;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    overflow-x: visible;
+}
+
+.why-us-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 14px;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+.why-us h2 {
+    text-align: left;
+}
+
+.why-us p {
+    text-align: left;
+}
+
+.gallery.p {
+    font-size: 14px;
+}
+
+.sewamobil {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px !important;
+}
+
+.flickity-prev-next-button {
+    top: auto;
+    transform: none;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #333 !important;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.flickity-prev-next-button.previous {
+    position: absolute;
+    left: calc(50% - 40px)!important;
+    right: auto;
+    border-radius: 30px;
+    border-color: #c4c4c4!important;
+    background: white;
+    top: 350px;
+}
+
+.flickity-prev-next-button.previous:hover {
+    background-color: #5CB85F;
+    border-color: #5CB85F;
+    color: white;
+}
+
+.flickity-prev-next-button.next {
+    left: calc(50% + 20px);
+    right: auto;
+    top: 350px;
+    border-color: #c4c4c4!important;
+}
+
+.flickity-prev-next-button.next:hover {
+    background-color: #5CB85F;
+    border-color: #5CB85F;
+    color: white;
+}
+
+.flickity-page-dots {
+    bottom: -40px;
+    position: absolute;
+    display: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.card {
+    flex-basis: calc(33.33% - 20px);
+    border-radius: 15px;
+    text-align: left;
+}
+
+.card img {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    #fa-1 {
+        align-items: center;
+        margin: 0 auto;
+    }
+    .navbar-toggler {
+        float: right !important;
+        margin-top: 5px;
+        border: none !important;
+        position: absolute;
+        right: 10px;
+    }
+    section.hero {
+        padding-left: 5px;
+        height: auto;
+        text-align: left;
+    }
+    .column-illustration-hero img {
+        margin-top: 20px;
+        width: 345px;
+        right: 10px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .text-p {
+        font-size: 14px;
+    }
+    .column-text-heading {
+        margin-bottom: 20px;
+        padding-left: 5px;
+    }
+    h1.hero-heading {
+        margin-top: 0;
+        font-size: 36px;
+    }
+    .btn.btn-success {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .col-6 {
+        min-width: 100%;
+        margin: 10px 0;
+    }
+    #img-service {
+        width: 252px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .col-6 h2 {
+        font-size: 24px;
+    }
+    .col-6 p {
+        font-size: 14px;
+    }
+    .p-2 {
+        font-size: 14px;
+    }
+    #best-car {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    #best1 {
+        text-align: left;
+    }
+    .row.row1 {
+        margin-bottom: 0;
+    }
+    .why-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .why-us-grid {
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        gap: 5px;
+    }
+    .why-us p {
+        text-align: left;
+        font-size: 14px;
+        margin: 0;
+    }
+    #p1 {
+        text-align: center;
+        font-size: 14px;
+        margin: 0;
+    }
+    #card-why {
+        width: 328px;
+        font-size: 14px !important;
+        margin-bottom: 0;
+        padding: 5px;
+    }
+    .card-title {
+        font-size: 16px;
+    }
+    .card-text {
+        font-size: 14px;
+    }
+    .container h2 {
+        text-align: center;
+    }
+    .gallery-cell {
+        display: block;
+        width: 328px;
+        height: auto;
+    }
+    .gallery-cell p {
+        font-size: 14px;
+    }
+    .d-flex {
+        flex-wrap: wrap;
+    }
+    .qna-item {
+        align-items: center;
+        justify-content: center;
+        width: 328px;
+    }
+    .qna-question {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .qna-answer {
+        width: 328px;
+    }
+    .testimonial p {
+        font-size: 14px;
+    }
+    #ban1 {
+        width: 328px !important;
+        height: auto;
+        margin-top: 0;
+    }
+    .faq {
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .faq p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .flickity-prev-next-button.previous {
+        margin-top: 20px;
+    }
+    .flickity-prev-next-button.next {
+        margin-top: 20px;
+    }
+}
