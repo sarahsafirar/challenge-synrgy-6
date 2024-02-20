@@ -1,0 +1,56 @@
+.textTitle {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    margin-bottom: 16px;
+
+}
+
+.textSubtitle {
+
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+
+.ButtonBCR {
+    background: #5CB85F;
+    border-radius: 2px;
+    padding: 8px 12px;
+    border: 0px;
+    color: white;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.ButtonBCR:hover{
+    background: #4da050;
+}
+
+.leftButton {
+    border: none;
+    background: none;
+    padding: 16px 16px;
+    display: inline-block;
+    background-image: url("../img/icon_left-button.png");
+  }
+  
+  .leftButton:hover{
+      background-image: url("../img/icon_left-button-active.png");
+  }
+  
+  .rightButton {
+      border: none;
+      background: none;
+      padding: 16px 16px;
+      display: inline-block;
+      background-image: url("../img/icon_right-button.png");
+  }
+    
+  .rightButton:hover{
+      background-image: url("../img/icon_right-button-active.png");
+  }

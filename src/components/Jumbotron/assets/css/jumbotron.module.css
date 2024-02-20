@@ -1,0 +1,33 @@
+.HeroTitle{
+    padding-top: 177px;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.textSubtitle {
+
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.ButtonBCR {
+    background: #5CB85F;
+    border-radius: 2px;
+    padding: 8px 12px;
+    border: 0px;
+    color: white;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.ButtonBCR:hover{
+    background: #4da050;
+}
+
