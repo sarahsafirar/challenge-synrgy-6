@@ -1,0 +1,52 @@
+{
+  "name": "binar_car_rental_bca_synrgy",
+  "version": "1.0.0",
+  "description": "SYNRGY FSW1 Challenge 5",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "npx knex migrate:latest --knexfile ./src/knexfile.js",
+    "make-seed": "npx knex seed:make dev --knexfile ./src/knexfile.js",
+    "seed": "npx knex seed:run --knexfile ./src/knexfile.js",
+    "down": "npx knex migrate:down --knexfile ./src/knexfile.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudinary/base": "^1.0.0-beta.4",
+    "@types/dotenv": "^8.2.0",
+    "@types/multer": "^1.4.10",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^1.41.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "formidable": "^3.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.0.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "objection": "^3.1.2",
+    "pg": "^8.11.3",
+    "pg-connection-string": "^2.6.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.9.0",
+    "@types/pg": "^8.10.9",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.6",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
